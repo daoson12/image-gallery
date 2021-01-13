@@ -11,7 +11,7 @@
         "heroku-postbuild": "ng build --prod"
     },
     "private": true,
-    "d   ependencies": {
+    "dependencies": {
         "@angular/animations": "~10.0.0",
         "@angular/common": "~10.0.0",
         "@angular/compiler": "~10.0.0",
@@ -24,12 +24,14 @@
         "@angular/router": "~10.0.0",
         "bootstrap": "^4.5.3",
         "ng-lazyload-image": "^7.0.2-0",
+        "express": "^4.17.1",
+        "path": "^0.12.7",
         "rxjs": "~6.5.5",
         "tslib": "^2.0.0",
         "zone.js": "~0.10.3",
         "typescript": "~3.9.5"
     },
-    "d evDependencies": {
+    "devDependencies": {
         "@angular-devkit/build-angular": "~0.1000.0",
         "@angular/cli": "~10.0.0",
         "@angular/compiler-cli": "~10.0.0",
@@ -52,9 +54,5 @@
     "engines": {
         "node": "14.15.1",
         "npm": "6.14.8"
-    },
-    "dependencies": {
-        "express": "^4.17.1",
-        "path": "^0.12.7"
     }
 }
